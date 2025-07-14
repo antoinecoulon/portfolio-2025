@@ -27,8 +27,8 @@
   --status-info: #58A6FF;
 
   /* Polices */
-  --font-family-system: "SF Pro", "Segoe UI", system-ui, sans-serif;
-  --font-family-mono: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+  /* --font-family-system: "SF Pro", "Segoe UI", system-ui, sans-serif;
+  --font-family-mono: "JetBrains Mono", "Fira Code", "Consolas", monospace; */
 
   /* shadcn/ui */
   --radius: 0.625rem;
@@ -89,8 +89,8 @@
   --color-status-info: var(--status-info);
 
   /* Polices */
-  --font-system: var(--font-family-system);
-  --font-mono: var(--font-family-mono);
+  /* --font-system: var(--font-family-system);
+  --font-mono: var(--font-family-mono); */
 
   /* shadcn/ui */
   --color-sidebar-ring: var(--sidebar-ring);
