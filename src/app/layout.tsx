@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`scan-lines cursor-terminal ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="min-h-screen">
           {children}
