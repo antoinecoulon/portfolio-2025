@@ -1,11 +1,20 @@
 import HomeSection from "../components/sections/HomeSection";
-import Header from "../components/ui/Header";
 
 export default function Home() {
   return (
-    <div className="h-full">
-      <Header />
-      <HomeSection />
-    </div>
+    <main className="h-screen snap-y snap-mandatory overflow-y-scroll">
+      <section className="snap-start h-screen">
+        <HomeSection />
+      </section>
+      <section className="snap-start h-screen">
+        <HomeSection />
+      </section>
+      <section className="snap-start h-screen">
+        <HomeSection />
+      </section>
+      <section className="snap-start h-screen">
+        <HomeSection />
+      </section>
+    </main>
   )
 }
