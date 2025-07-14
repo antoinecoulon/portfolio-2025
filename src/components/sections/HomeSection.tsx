@@ -1,4 +1,7 @@
+import { FileText } from "lucide-react";
 import { Button } from "../ui/button";
+import GithubIcon from "../ui/GithubIcon";
+import { FaLinkedin } from "react-icons/fa6";
 
 export default function HomeSection() {
     return (
@@ -12,22 +15,30 @@ export default function HomeSection() {
                         Je m'appelle <span className="text-accent-primary text-4xl font-bold">Antoine</span>
                     </p>
                     <p className="font-light">
-                        et je suis développeur full-stack
+                        et je suis développeur full-stack.
                     </p>
                 </div>
                 <div className="flex items-center gap-4">
                     <Button
                         size={"lg"}
-                        className="hover:cursor-pointer hover:bg-accent-secondary hover:text-bg-primary"
-                    >Télécharger mon CV</Button>
+                        className="border border-text-primary hover:cursor-pointer hover:bg-accent-secondary hover:text-bg-primary"
+                    >
+                        <FileText /> Télécharger mon CV
+                    </Button>
                     <Button
                         size={"icon"}
+                        variant={"outline"}
                         className="hover:cursor-pointer hover:bg-accent-primary hover:text-bg-primary"
-                    >*</Button>
+                    >
+                        <GithubIcon />
+                    </Button>
                     <Button
                         size={"icon"}
+                        variant={"outline"}
                         className="hover:cursor-pointer hover:bg-accent-primary hover:text-bg-primary"
-                    >*</Button>
+                    >
+                        <FaLinkedin color="bg-bg-primary" size={8} />
+                    </Button>
                 </div>
             </div>
             <div>IMAGE</div>
