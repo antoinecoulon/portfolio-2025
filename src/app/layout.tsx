@@ -42,7 +42,7 @@ export default function RootLayout({
       <body
         className={`scan-lines cursor-terminal ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="min-h-screen">
+        <div className="h-screen">
           {children}
         </div>
       </body>
