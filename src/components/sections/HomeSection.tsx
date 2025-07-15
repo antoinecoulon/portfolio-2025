@@ -2,10 +2,11 @@ import { FileText } from "lucide-react";
 import { Button } from "../ui/button";
 import GithubIcon from "../ui/GithubIcon";
 import { FaLinkedin } from "react-icons/fa6";
+import AnimatedTerminal from "../ui/AnimatedTerminal";
 
 export default function HomeSection() {
     return (
-        <div className="h-full flex justify-around items-center">
+        <div className="h-full flex max-md:flex-col justify-around items-center">
             <div className="flex flex-col gap-4">
                 <div className="text-2xl/loose">
                     <p className="font-bold text-accent-primary">
@@ -41,7 +42,9 @@ export default function HomeSection() {
                     </Button>
                 </div>
             </div>
-            <div>IMAGE</div>
+            <div className="w-full px-4 sm:w-[600px]">
+                <AnimatedTerminal />
+            </div>
         </div>
     )
 }
