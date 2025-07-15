@@ -20,25 +20,32 @@ export default function HomeSection() {
                     </p>
                 </div>
                 <div className="flex items-center gap-4">
+                    <a href="/cv/CV_AntoineCoulon.pdf" download={"CV_AntoineCoulon.pdf"}>
                     <Button
                         size={"lg"}
                         className="border border-text-primary hover:cursor-pointer hover:bg-accent-secondary hover:text-bg-primary"
                     >
-                        <FileText /> Télécharger mon CV
+                        
+                            <FileText /> Télécharger mon CV
+                    </Button>
+                        </a>
+                    <Button
+                        size={"icon"}
+                        variant={"outline"}
+                        className="hover:cursor-pointer hover:bg-accent-primary hover:text-bg-primary"
+                    >
+                        <a href="https://github.com/antoinecoulon" target="blank">
+                            <GithubIcon />
+                        </a>
                     </Button>
                     <Button
                         size={"icon"}
                         variant={"outline"}
                         className="hover:cursor-pointer hover:bg-accent-primary hover:text-bg-primary"
                     >
-                        <GithubIcon />
-                    </Button>
-                    <Button
-                        size={"icon"}
-                        variant={"outline"}
-                        className="hover:cursor-pointer hover:bg-accent-primary hover:text-bg-primary"
-                    >
-                        <FaLinkedin className="fill-bg-primary" />
+                        <a href="http://www.linkedin.com/in/antoine-coulon-65638882" target="blank">
+                            <FaLinkedin className="fill-bg-primary" />
+                        </a>
                     </Button>
                 </div>
             </div>
