@@ -37,7 +37,7 @@ export default function HomeSection() {
                         variant={"outline"}
                         className="hover:cursor-pointer hover:bg-accent-primary hover:text-bg-primary"
                     >
-                        <FaLinkedin color="bg-bg-primary" size={8} />
+                        <FaLinkedin className="fill-bg-primary" />
                     </Button>
                 </div>
             </div>
