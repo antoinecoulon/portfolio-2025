@@ -176,5 +176,3 @@ export default function AnimatedTerminal() {
     </div>
   );
 };
-
-// TODO: sauvegarder component dans notion
