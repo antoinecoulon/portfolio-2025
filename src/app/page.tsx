@@ -1,5 +1,6 @@
 import ProjetsSection from "@/components/sections/ProjetsSection";
 import HomeSection from "../components/sections/HomeSection";
+import SkillsSection from "@/components/sections/SkillsSection";
 
 export default function Home() {  
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <ProjetsSection />
       </section>
       <section className="snap-start h-screen">
-        <HomeSection />
+        <SkillsSection />
       </section>
       <section className="snap-start h-screen">
         <HomeSection />
@@ -19,3 +20,5 @@ export default function Home() {
     </main>
   )
 }
+
+// TODO: sémentique html (sections...)
