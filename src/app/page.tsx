@@ -1,6 +1,7 @@
 import ProjetsSection from "@/components/sections/ProjetsSection";
 import HomeSection from "../components/sections/HomeSection";
 import SkillsSection from "@/components/sections/SkillsSection";
+import ContactSection from "@/components/sections/ContactSection";
 
 export default function Home() {  
   return (
@@ -15,7 +16,7 @@ export default function Home() {
         <SkillsSection />
       </section>
       <section className="snap-start h-screen">
-        <HomeSection />
+        <ContactSection />
       </section>
     </main>
   )
